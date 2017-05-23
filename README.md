@@ -14,6 +14,8 @@
 ##建议
 > 如果不知道将以下代码放在何处你可以考虑放在文章节点末尾
 
+
+```javascript
 		<script type="text/javascript">
 		if (typeof DUOSHUO !== 'undefined')hookDUOSHUO_tp();
 		else $('[src="http://static.duoshuo.com/embed.js"]')[0].onload=hookDUOSHUO_tp;
@@ -34,9 +36,11 @@
 			return '<span class="this_ua platform '+sua.os.name+'">'+sua.os.name+' '+sua.os.version+'</span><span class="this_ua browser '+sua.browser.name+'">'+sua.browser.name+'|'+sua.browser.version+'</span>';
 		}
 		</script>
+```
 
 ###无刷新加载的请使用下面代码
 
+```javascript
 		<script type="text/javascript">
 		if (typeof DUOSHUO !== 'undefined')hookDUOSHUO_tp();
 		else $('[src="http://static.duoshuo.com/embed.js"]')[0].onload=hookDUOSHUO_tp;
@@ -60,3 +64,4 @@
 			return '<span class="this_ua platform '+sua.os.name+'">'+sua.os.name+' '+sua.os.version+'</span><span class="this_ua browser '+sua.browser.name+'">'+sua.browser.name+'|'+sua.browser.version+'</span>';
 		}
 		</script>
+```
